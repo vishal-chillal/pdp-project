@@ -36,13 +36,31 @@ func Init(config *LoggerConfig) bool{
 }
 
 func Debug(format string, v ...interface{}) {
-	llog("[INFO] "+format, v...)
+	llog(format, v...)
 	//TODO handle logong level
 }
 
 func SetLogLevel(level LogLevel) {
 	//TODO set propper levels
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // func main(){
 // 	// logConfig := &LoggerConfig{}
